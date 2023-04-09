@@ -49,7 +49,10 @@ body{
 
 
 .result-field{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 .result-images{
     display: flex;
@@ -153,14 +156,19 @@ body{
     }
 
     .round input{
-        font-size: 18px;
+        font-size: 16px;
         
+    }
+
+    .result-images{
+        column-gap: 4.4rem;
     }
 
     .result-images img{
         width: 70px;
     }
 
+    
     .result{
         font-size: 1.5rem;
     }
