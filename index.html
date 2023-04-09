@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-paper-Scissors</title>
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <div class="round">
+            <input type="text" placeholder="Number of rounds" oninput="numberOnly(this.id);" class="test_css" maxlength="2" id="flight_number" name="number"/>
+        </div>
+        <div class="result-field">
+            <div class="result-images">
+                <span class="user-result">
+                    <img src="/images/rock.png">
+                </span>
+
+                <span class="cpu-result">
+                    <img src="/images/rock.png">
+                </span>
+            </div>
+            <div class="result">Enter round!! </div>
+            <div class="score"><span class="user-score">0</span>-<span class="cpu-score">0</span></div>
+        </div>
+        <div class="option-images">
+            <span class="option-image">
+                <img src="/images/rock.png">
+                <p>Rock</p>
+            </span>
+            <span class="option-image">
+                <img src="/images/paper.png">
+                <p>Paper</p>
+            </span>
+            <span class="option-image">
+                <img src="/images/scissors.png">
+                <p>Scissors</p>
+            </span>
+        </div>
+    </section>
+
+
+    <script src="/script.js" defer>
+
+    </script>
+</body>
+</html>
